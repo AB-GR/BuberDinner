@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Api", "BuberDinner.Api\BuberDinner.Api.csproj", "{FBFDF793-8331-4A79-9751-AF21353EBFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Api", "BuberDinner.Api\BuberDinner.Api.csproj", "{FBFDF793-8331-4A79-9751-AF21353EBFD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Contracts", "BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{7ACD531A-EED6-4315-958D-B2F236E62B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Contracts", "BuberDinner.Contracts\BuberDinner.Contracts.csproj", "{7ACD531A-EED6-4315-958D-B2F236E62B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Application", "BuberDinner.Application\BuberDinner.Application.csproj", "{F568A70B-22B4-40DD-A77B-F148C7E9371A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuberDinner.Application", "BuberDinner.Application\BuberDinner.Application.csproj", "{F568A70B-22B4-40DD-A77B-F148C7E9371A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuberDinner.Infrastructure", "BuberDinner.Infrastructure\BuberDinner.Infrastructure.csproj", "{97071FF5-E7C5-4367-B320-FDFB6763576A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F568A70B-22B4-40DD-A77B-F148C7E9371A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F568A70B-22B4-40DD-A77B-F148C7E9371A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F568A70B-22B4-40DD-A77B-F148C7E9371A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97071FF5-E7C5-4367-B320-FDFB6763576A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97071FF5-E7C5-4367-B320-FDFB6763576A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97071FF5-E7C5-4367-B320-FDFB6763576A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97071FF5-E7C5-4367-B320-FDFB6763576A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
